@@ -1,0 +1,137 @@
+<!doctype html>
+<html>
+    <head>
+        <title>João Paulo Nascimento Oliveira </title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width-device-width, initial-scale1"/>
+        <link rel="shortcut icon" type="image/x-icon" href="../images/pi2.png">
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="../css/estilo.css"/>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet"> 
+
+    </head>
+    <body>
+        <nav class="navbar navbar-default" id=navegacao>
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#miniNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>                        
+                    </button>
+                    <a class="navbar-brand" href="../index.html"><img src="../images/icon.png" alt="logo" style="width: 30px;"></a>
+                </div>
+                <div class="collapse navbar-collapse" id="miniNavbar">
+                    <ul class="nav navbar-nav" >
+                        <li><a href="../index.html">Home</a></li>
+                       <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Módulo 1<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="../modulo1/comun.html">Comunicação Empresarial</a></li>
+                                <li><a href="../modulo1/redes.html">Fundamentos de Redes</a></li>
+                                <li><a href="../modulo1/fti.html">Fundamentos de TI</a></li>
+                                <li><a href="../modulo1/logica.html">Lógica de Programação</a></li>
+                                <li><a href="../modulo1/admin.html">Tópicos Especiais em Administração</a></li>
+
+                            </ul>
+                        </li>
+                        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Módulo 2<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                                <li><a href="arquitet.html">Arquitetura e Organização de Computadores</a></li>
+                                <li><a href="engsoft.html">Engenharia de Software</a></li>
+                                <li><a href="estat.html">Estatística Aplicada</a></li>
+                                <li><a href="etica.html">Ética, Cidadania e Responsabilidade Social</a></li>
+                                <li><a href="gestaopessoas.html">Gestão de Pessoas</a></li>
+                            <li><a href="redes2.html">Laboratório de Redes de Computadores</a></li>
+                            <li><a href="poo.html">Programação Orientada a Objetos</a></li>
+
+                            </ul>
+                        </li>
+                        </li>
+                        <!-- Para inserir aqui os modulos seguintes-->
+                        <li><a href="#">Módulo 3</a></li>
+                        <!-- Para inserir aqui os modulos seguintes-->
+                        <li><a href="#">Módulo 4</a></li>
+                        <!-- Para inserir aqui os modulos seguintes-->
+                        <li><a href="#">Módulo 5</a></li>
+                        <!-- Para inserir aqui os modulos seguintes-->
+                    </ul>
+
+                    <ul class="nav navbar-nav navbar-right" >
+                        <li><a href="../index.html#sobre_nos"><span class="glyphicon glyphicon-log-in"></span> Sobre Nós</a></li>
+                        <li><a href="http://www.projetointegrador.com.br/" target="_blank">Projeto Integrador</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <header>
+            <h1>
+                Gestão da Tecnologia da Informação
+            </h1>
+            <h2>
+                Módulo2/Programação_Orientada_a_Objetos
+            </h2>
+        </header>
+        <br/>
+        <br/>
+        <div class="col-sm-1"></div>
+        <div class="col-sm-10">
+            <div class="conteudo">
+                <p><strong>Componente curricular:</strong> Programação Orientada a Objetos
+                </p>
+                <p><strong>Professora:</strong> Alice Mota Faleiro</p>
+                <p><strong>Ementa:</strong></p>
+                <p>Fundamentos da programação orientada a objetos: Abstração, classes, objetos, interface, encapsulamento, métodos, herança, polimorfismo e Agregação/composição. Implementação de programas robustos a partir da interpretação de artefatos de software (diagramas de classe).</p>
+                <p><strong>Objetivos:</strong></p>
+                <p>Capacitar o aluno a desenvolver programas utilizando o paradigma orientado a objeto.</p>
+                <p><strong>Competências:</strong></p>
+                <p>Compreender e aplicar os conceitos e técnicas relacionadas a Programação Orientada a Objetos.</p>
+                <p><strong>Conteúdos Programáticos:</strong></p>
+                <ul>
+                <li>Fundamentos: tipos de dados, classe, objeto, atributos, métodos, diagrama de classe, encapsulamento</li>
+                <li>Arrays</li>
+                <li>Containers</li>
+                <li>Diagrama de classe (Agregação e Composição)</li>
+                <li>Herança</li>
+                <li>Polimorfismo e Encapsulamento</li>
+                <li>Classes abstratas</li>
+                <li>Interfaces</li>
+                    <li>Implementação de artefatos de softwares baseados em diagrama de classe.</li>
+                </ul>
+                
+                
+            </div>
+            <br/>
+            <div class="conteudo">
+                <h2>Atividade proposta</h2>
+                <p>Implementação do analisador de logs do Servidor Web com base nos requisitos da unidade curricular de Estatística, de acordo com o roteiro abaixo:</p>
+                <ul>
+                <li>Recuperar o conteúdo do arquivo de log de acesso do servidor httpd Apache;</li>
+                <li>Definir o caractere separador de campo (ex.: - ou | ou ;);</li>
+                <li>Criar uma classe que represente os campos recuperados do arquivo log;</li>
+                <li>Desenvolva a lógica para fazer a separação dos campos necessários;</li>
+                <li>Desenvolver a lógica para fazer os cálculos estatísticos solicitados;</li>
+                <li>Desenvolva a classe Arquivo, na qual deve existir dois métodos estáticos um responsável pela leitura dos dados do arquivo e que retorna o ArrayList preenchido e outro que recebe o ArrayList preenchido e grava no arquivo;</li>
+                <li>Desenvolver a classe java Executável, utilizando Interface Gráfica, que manipule a execução do programa que com o ArrayList preenchido efetue os cálculos estatísticos, descritos na unidade e Estatística.</li>
+                
+                </ul>
+                
+                <div class="download">
+                    <p><a href="../files/modulo2/tutorial_software.pdf" target="_blank">DOWNLOAD TUTORIAL DO PROGRAMA</a></p>
+                    <p><a href="../files/modulo2/AnaliseLog.jar" target="_blank">DOWNLOAD JAR DO PROGRAMA</a></p>
+                    <p><a href="https://drive.google.com/open?id=1g4cgDLaGdiLGZ8aBgfPvQ0qoOx0qqmve" target="_blank">DOWNLOAD ARQUIVO LOG 1 (84MB)</a></p>
+                    <p><a href="https://drive.google.com/file/d/1sQMP4CvYmwOEZijG2kqEfyPM6WwFT5JL/view?usp=drivesdk" target="_blank">DOWNLOAD ARQUIVO LOG 2 (244MB)</a></p>
+                
+                
+                </div>
+                
+            </div>
+            <br/>
+            <br/>
+            <div id="footer"><p><strong>Copyright 2018 by João Paulo Nascimento Oliveira</strong></p></div>
+        </div>
+        <div class="col-sm-1"></div>  
+    </body>
+</html>

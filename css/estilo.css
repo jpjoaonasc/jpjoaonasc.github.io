@@ -1,0 +1,173 @@
+html body header h1{
+    font-size: 90px;
+    text-align: center;
+    font-family: 'Nunito', serif;
+}
+
+html body{
+    background-color: lightblue;
+}
+html body footer p{
+    text-align: center;
+    font-size: 20px;
+    font-family: fantasy;
+}
+html body header h2{
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Nunito', serif;
+}
+html body p{
+    text-align: justify-all;
+    font-size: 18px;
+}
+
+.center1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.center2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+
+#footer{
+    text-align: center;
+}
+
+#sobre{
+    border-style: solid;
+    border-radius: 20px;
+    text-align: justify;
+    background-color: #DAF0F8;
+    padding: 15px;
+}
+
+#sobre p{
+    text-align: center;
+}
+
+#sobre h2{
+    text-align: center;
+}
+
+#sobre #texto_sobre{
+    text-align: justify;
+}
+
+#sobre_nos{
+    border-style: solid;
+    border-radius: 20px;
+    background-color: #DAF0F8;
+}
+
+#sobre_nos p a{
+    text-decoration: none;
+    color: black;
+}
+
+h2{
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+}
+
+.conteudo{
+    text-align: justify;
+    border-collapse: separate;
+    background-color: #DAF0F8;
+    border-radius: 20px;
+    padding: 15px;
+    
+}
+
+.conteudo ul li{
+    font-size: 16px;
+    font-style: italic;
+    color: black;
+}
+
+.conteudo ol{
+    counter-reset: item;
+    font-style: italic;
+    font-size: 16px;
+}
+
+.conteudo ol li{
+    display: block;
+    font-size: 16px;
+    font-style: italic;
+    color: black;
+}
+
+.conteudo ol li:before{
+    content: counters(item, ".") " ";
+    counter-increment: item
+}
+
+
+
+
+
+
+.download p a{
+    text-decoration: none;
+    color: blue;
+}
+
+.download a{
+    text-decoration: none;
+    color: blue;
+}
+
+.navbar-default{
+    background-color: #6FB3F0;
+    border-color: #428bca;
+    border-radius: 0;
+}
+
+
+.navbar-default .navbar-brand,
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus{
+    color: #fff;
+}
+
+.navbar-default .navbar-nav>li>a{
+    color: #fff;
+}
+
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>li>a:focus{
+    background-color: #428bca;
+}
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a:focus{
+    color: #fff;
+    background-color: #428bca;
+}
+
+.navbar-default .navbar-text{
+    color: #fff;
+}
+
+.navbar-default .navbar-toggle{
+    border-color: #428bca;
+}
+
+.navbar-defautl .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus{
+    background-color: #428bca;
+}
+
+
+*/
